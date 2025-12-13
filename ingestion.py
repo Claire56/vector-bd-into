@@ -28,7 +28,7 @@ def main():
     embeddings = OpenAIEmbeddings(
         openai_api_key=os.environ.get("OPENAI_API_KEY"),
         model="text-embedding-3-small",
-        dimensions=512,
+        dimensions=1536,
     )
 
     print("ingesting")

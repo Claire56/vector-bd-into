@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     embeddings = OpenAIEmbeddings(
         model="text-embedding-3-small",
-        dimensions=512,  # must match your Pinecone index dimension
+        dimensions=1536,  # must match your Pinecone index dimension
         openai_api_key=os.environ.get("OPENAI_API_KEY"),
     )
 
